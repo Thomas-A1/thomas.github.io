@@ -1,0 +1,265 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+html, body{
+    width:100%;
+    min-height:100vh;
+    margin: 0;
+}
+
+/**
+img{
+    width:1000px;
+    height:850px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    opacity: 0.5; 
+}
+**/
+#header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+}
+.container{
+    width:1100px;
+    height: 2600px;
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    margin-bottom:120px;
+    background-color:rgb(237, 237, 237);
+    border: 0.5px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.performance li{
+    font-weight: lighter;
+}
+.innerbox{
+    margin-top:60px;
+    margin-left:25px;
+    margin-right:25px;
+    margin-bottom:25px;
+    width:100%;
+    height:90%;
+}
+.name{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:18px;
+}
+.contacts{
+    text-align: center;
+    margin-top:20px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+.details{
+    list-style-type:none;
+    padding:0;
+    overflow:hidden;
+}
+.com{
+    text-align: center;
+    padding: 12px;
+    display: inline;
+    font-size: 17px;
+}
+.com1 {
+    text-align: center;
+    display: inline;
+    font-size: 21px;
+}
+
+
+i {
+    font-size: 22px;
+    color:rgb(238, 123, 123);
+}
+.Education{
+    height:450px;
+    margin-top: 34px;
+    margin-left: 26px;
+    margin-right:35px;
+    border: 2px solid rgb(225, 222, 222);
+    border-radius:10px;
+    background-color: rgb(233, 235, 237);
+}
+.test{
+    margin-top:12px;
+    margin-left:25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.liner1{
+    background-color: #a9b8aa;
+    height:2px;
+    margin-left:20px;
+    margin-top:5px;
+    margin-right:5px;
+}
+.validity{
+    margin-top:13px;
+    margin-left:26px;
+    font-size: 22px;
+    display:block;
+    height:27px;
+}
+.school{
+    float:left;
+    font-weight: bold;
+    font-family: monospace
+    
+}
+.year{
+    float: right;
+    margin-right:20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.years {
+    float:right;
+    font-weight: bold;
+    font-family: monospace;
+    margin-right: 300px;
+}
+.Region{
+    margin-left:24px;
+    margin-top:5px;
+    font-size: 20px;
+    font-style: italic;
+}
+.Achievements{
+    margin-top:12px;
+    margin-left:60px;
+}
+.performance{
+    font-style: italic;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Achievements > ul li{
+    padding:5px;
+}
+.Work {
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 26px;
+    margin-right: 35px;
+    border: 2px solid rgb(225, 222, 222);
+    border-radius: 10px;
+    background-color: rgb(233, 235, 237);
+}
+.project {
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 26px;
+    margin-right: 35px;
+    border: 2px solid rgb(225, 222, 222);
+    border-radius: 10px;
+    background-color: rgb(233, 235, 237);
+}
+.curricular{
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 26px;
+    margin-right: 35px;
+    border: 2px solid rgb(225, 222, 222);
+    border-radius: 10px;
+    background-color: rgb(233, 235, 237);
+
+}
+.skills {
+    height: 470px;
+    margin-top: 10px;
+    margin-left: 26px;
+    margin-right: 35px;
+    border: 2px solid rgb(225, 222, 222);
+    border-radius: 10px;
+    background-color: rgb(233, 235, 237);
+
+}
+
+/**
+section{
+    position:relative;
+    width:100%;
+    height:60vh;
+    background:#233146;
+    overflow:hidden;
+}
+section .wave{
+    position:absolute;
+    bottom:0;
+    left:0;
+    width: 100%;
+    height:100px;
+    background:url(wave.png);
+    background-size:950px 105px;
+    
+}
+section .wave.wave1{
+    animation:animate 30s linear infinite;
+    z-index:1000;
+    opacity:1;
+    animation-delay:0s;
+    bottom:0;
+    
+    
+}
+
+section .wave.wave2 {
+    animation: animate2 13s linear infinite;
+    z-index: 999;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+    background-color: #913b68;
+}
+
+section .wave.wave3 {
+    animation: animate 13s linear infinite;
+    z-index: 998;
+    opacity: 0.3;
+    animation-delay: -2s;
+    bottom: 15;
+    background-color: #631e41;
+}
+
+section .wave.wave4 {
+    animation: animate2 5s linear infinite;
+    z-index: 997;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 22px;
+    background-color: #f96eb6;
+}
+@keyframes animate{
+    0%{
+        background-position-x:0;
+    }
+    100%{
+        background-position-x:1000px;
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        background-position-x: 0;
+    }
+
+    100% {
+        background-position-x: -1000px;
+    }
+}
+**/
